@@ -230,3 +230,54 @@ h1 {
     transform: translateY(0%);
   }
 }
+
+.keyboard {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 400px;
+}
+
+.key {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20%;
+  font-weight: 600;
+  margin: 2px;
+  width: 40px;
+  height: 40px;
+  background-color: rgb(226, 226, 226);
+}
+
+.key.correct {
+  background-color: rgb(25, 117, 48);
+  color: white;
+}
+
+.key.misplaced {
+  background-color: rgb(171, 182, 16);
+  color: white;
+}
+
+.key.incorrect {
+  background-color: rgb(97, 97, 97);
+  color: white;
+}
+
+.refresh {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-self: center;
+  width: 80px;
+  height: 30px;
+  margin: 10px;
+  border: 1px solid #fff;
+  color: #fff;
+  font-weight: 600;
+}
+
+.refresh:hover {
+  opacity: 70%;
+}
